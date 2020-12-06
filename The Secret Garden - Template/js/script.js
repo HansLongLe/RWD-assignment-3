@@ -27,6 +27,7 @@ $("#apple3").on("click", function () {
     });
 });
 
+<<<<<<< Updated upstream
 
 
 $(document).ready(function () {
@@ -56,6 +57,36 @@ $(document).ready(function () {
     });
 });
 
+=======
+var wateringCanClicked = 1;
+
+$('#wateringcan').click(function () {
+    wateringCanClicked++;
+    if (wateringCanClicked % 2) {
+        $('#wateringcan').animate({
+            deg: 0
+        }, {
+            duration: 1200,
+            step: function (now) {
+                $(this).css({
+                    transform: 'rotate(' + now + 'deg)'
+                });
+            }
+        })
+    } else {
+        $('#wateringcan').animate({
+            deg: -50
+        }, {
+            duration: 1200,
+            step: function (now) {
+                $(this).css({
+                    transform: 'rotate(' + now + 'deg)'
+                });
+            }
+        })
+    }
+})
+>>>>>>> Stashed changes
 //butterfly
 $(document).ready(function () {
     animateButterfly();
@@ -63,7 +94,6 @@ $(document).ready(function () {
 
 function makeNewPosition() {
 
-    // Get viewport dimensions (remove the dimension of the div)
     var h = $(window).height() - 200;
     var w = $(window).width() - 200;
 
