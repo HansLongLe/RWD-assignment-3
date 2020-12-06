@@ -1,1 +1,5 @@
 [1206/162515.647:ERROR:directory_reader_win.cc(43)] FindFirstFile: Systém nemùže nalézt uvedenou cestu. (0x3)
+[1206/170030.121:ERROR:directory_reader_win.cc(43)] FindFirstFile: Systém nemùže nalézt uvedenou cestu. (0x3)
+[1206/172358.698:ERROR:directory_reader_win.cc(43)] FindFirstFile: Systém nemùže nalézt uvedenou cestu. (0x3)
+[1206/174046.095:ERROR:directory_reader_win.cc(43)] FindFirstFile: Systém nemùže nalézt uvedenou cestu. (0x3)
+[1206/180620.233:ERROR:directory_reader_win.cc(43)] FindFirstFile: Systém nemùže nalézt uvedenou cestu. (0x3)
