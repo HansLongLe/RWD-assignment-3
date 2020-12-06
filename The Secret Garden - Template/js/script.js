@@ -37,6 +37,7 @@ $(document).ready(function () {
         if (rotated) {
             $(this).addClass("Rotate")
             $("#drops").show();
+            $("#drops").slideDown(1000);
 
 
 
