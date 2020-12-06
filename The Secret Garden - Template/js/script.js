@@ -31,12 +31,22 @@ $("#apple3").on("click", function () {
 
 $(document).ready(function () {
     var rotated = false;
+    $("#drops").hide();
     $('#wateringcan').on('click', function () {
         rotated = !rotated;
         if (rotated) {
             $(this).addClass("Rotate")
+            $("#drops").show();
+
+
+
+
+
+
+
         } else {
             $(this).addClass("Rotateback")
+            $("#drops").hide();
             rotated = false;
         }
     });

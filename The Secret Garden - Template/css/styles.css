@@ -19,11 +19,18 @@ body {
 
 
 .waterdrop {
+
     width: 20px;
     display: inline-block;
-    padding-top: 0.1%;
+
+
+}
+
+#drops {
+
     margin-left: 40%;
-    padding-top: 77%
+    padding-top: 39%;
+
 }
 
 #net {
