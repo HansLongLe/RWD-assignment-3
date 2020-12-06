@@ -27,42 +27,13 @@ $("#apple3").on("click", function () {
     });
 });
 
-<<<<<<< Updated upstream
-
-
-$(document).ready(function () {
-    var rotated = false;
-    $("#drops").hide();
-    $('#wateringcan').on('click', function () {
-        rotated = !rotated;
-        if (rotated) {
-            $(this).addClass("Rotate");
-            $("#drops").show();
-            $(".waterdrop").animate({
-                top: '+=100'
-            }, 1000);
-
-
-
-
-
-
-
-
-        } else {
-            $(this).addClass("Rotateback")
-            $("#drops").hide();
-            rotated = false;
-        }
-    });
-});
-
-=======
 var wateringCanClicked = 1;
+$('.waterdrop').hide();
 
 $('#wateringcan').click(function () {
     wateringCanClicked++;
     if (wateringCanClicked % 2) {
+        $('.waterdrop').hide();
         $('#wateringcan').animate({
             deg: 0
         }, {
@@ -74,6 +45,7 @@ $('#wateringcan').click(function () {
             }
         })
     } else {
+        $('.waterdrop').show();
         $('#wateringcan').animate({
             deg: -50
         }, {
@@ -86,7 +58,7 @@ $('#wateringcan').click(function () {
         })
     }
 })
->>>>>>> Stashed changes
+
 //butterfly
 $(document).ready(function () {
     animateButterfly();
