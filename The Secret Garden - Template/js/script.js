@@ -35,9 +35,12 @@ $(document).ready(function () {
     $('#wateringcan').on('click', function () {
         rotated = !rotated;
         if (rotated) {
-            $(this).addClass("Rotate")
+            $(this).addClass("Rotate");
             $("#drops").show();
-            $("#drops").slideDown(1000);
+            $(".waterdrop").animate({
+                top: '+=100'
+            }, 1000);
+
 
 
 
