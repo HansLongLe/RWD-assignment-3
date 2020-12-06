@@ -81,6 +81,7 @@ body {
     -moz-transition: transform 1.05s ease-in-out;
     -ms-transition: transform 1.05s ease-in-out;
 }
+<<<<<<< HEAD
 
 #apple1 {
     padding-top: 200px;
@@ -96,3 +97,5 @@ body {
     padding-top: 350px;
     margin-left: 300px;
 }
+=======
+>>>>>>> 7a3c6baf1cbdac2827d4d27ea7cc5359324f3039

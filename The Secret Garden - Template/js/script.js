@@ -5,6 +5,7 @@ $(document).mousemove(function (event) {
     });
 });
 
+<<<<<<< HEAD
 
 $("#apple2").on("click", function () {
     $("#apple2").animate({
@@ -28,6 +29,9 @@ $("#apple3").on("click", function () {
 });
 
 
+=======
+
+>>>>>>> 7a3c6baf1cbdac2827d4d27ea7cc5359324f3039
 $(document).ready(function () {
     var rotated = false;
     $('#wateringcan').on('click', function () {
@@ -39,4 +43,63 @@ $(document).ready(function () {
             rotated = false;
         }
     });
+<<<<<<< HEAD
+=======
 });
+
+//butterfly
+$(document).ready(function () {
+    animateButterfly();
+
+>>>>>>> 7a3c6baf1cbdac2827d4d27ea7cc5359324f3039
+});
+
+function makeNewPosition() {
+
+    // Get viewport dimensions (remove the dimension of the div)
+    var h = $(window).height() - 200;
+    var w = $(window).width() - 200;
+
+    var nh = Math.floor(Math.random() * h);
+    var nw = Math.floor(Math.random() * w);
+
+    return [nh, nw];
+
+}
+
+function animateButterfly() {
+    var newq = makeNewPosition();
+    $('#butterfly').animate({
+        top: newq[0],
+        left: newq[1]
+    }, 3000, function () {
+        animateButterfly();
+    });
+
+};
+$('#butterfly').hover(function () {
+    butterflyOnHover();
+})
+
+function butterflyOnHover() {
+    var newq = makeNewPosition();
+    $('#butterfly').animate({
+        top: newq[0],
+        left: newq[1]
+    }, 500, function () {
+        animateButterfly();
+    });
+};
+$('#butterfly').mouseover(function () {
+    butterflyMouseOver();
+})
+
+function butterflyMouseOver() {
+    var newq = makeNewPosition();
+    $('#butterfly').animate({
+        top: newq[0],
+        left: newq[1]
+    }, 3000, function () {
+        animateButterfly();
+    });
+};
