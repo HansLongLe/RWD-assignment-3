@@ -5,7 +5,6 @@ $(document).mousemove(function (event) {
     });
 });
 
-<<<<<<< HEAD
 
 $("#apple2").on("click", function () {
     $("#apple2").animate({
@@ -29,9 +28,7 @@ $("#apple3").on("click", function () {
 });
 
 
-=======
 
->>>>>>> 7a3c6baf1cbdac2827d4d27ea7cc5359324f3039
 $(document).ready(function () {
     var rotated = false;
     $('#wateringcan').on('click', function () {
@@ -43,15 +40,11 @@ $(document).ready(function () {
             rotated = false;
         }
     });
-<<<<<<< HEAD
-=======
 });
 
 //butterfly
 $(document).ready(function () {
     animateButterfly();
-
->>>>>>> 7a3c6baf1cbdac2827d4d27ea7cc5359324f3039
 });
 
 function makeNewPosition() {
