@@ -27,9 +27,9 @@ body {
 }
 
 #drops {
-
+    position: absolute;
     margin-left: 40%;
-    padding-top: 39%;
+    padding-top: 54%;
 
 }
 
@@ -90,17 +90,20 @@ body {
 }
 
 #apple1 {
-    padding-top: 200px;
-    margin-left: 1200px;
+    position: absolute;
+    padding-top: 13%;
+    margin-left: 66%;
 }
 
 #apple2 {
-    padding-top: 300px;
-    margin-left: 1350px;
+    position: absolute;
+    padding-top: 20%;
+    margin-left: 65%;
 }
 
 #apple3 {
-    padding-top: 360px;
-    margin-left: 1090px;
-   
+    position: absolute;
+    padding-top: 22%;
+    margin-left: 60%;
+
 }
